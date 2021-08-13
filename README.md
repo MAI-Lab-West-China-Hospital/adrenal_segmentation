@@ -14,3 +14,13 @@ Segmentation of adrenal glands from CT images is a crucial step in the AI-assist
 - torchvision==0.7.0
 - monai==0.3.0
 
+# How to test
+We provided two test data in `./data/adrenal_deomo`
+
+To test them run:
+```
+python joint_seg.py
+```
+
+# Citation
+Luo, G., Yang, Q., Chen, T., Zheng, T., Xie, W. and Sun, H., 2021. An optimized two-stage cascaded deep neural network for adrenal segmentation on CT images. Computers in Biology and Medicine, p.104749.
